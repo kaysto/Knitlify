@@ -1,0 +1,625 @@
+
+body {
+  overflow-x: hidden;
+  background-color:rgb(189, 208, 250);
+
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+h1 {
+  font-family:'Chelsea Market', cursive;
+  color:black;
+  -webkit-text-stroke:white 1px;
+  font-size: 8vw;
+  float:left;
+  margin-bottom:50px;
+  margin-left:-45px;
+}
+.info {
+    font-family:'Amatic SC', cursive;
+    font-size:1.5vw;
+    text-transform:lowercase;
+    color:black;
+    width:42%;
+    max-width:100%;
+    text-align:left;
+
+}
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  padding-left:25px;
+}
+p{
+  font-size: 14px;
+  line-height: 1.6em;
+  margin: 0;
+}
+a:hover { text-decoration: none; }
+
+/* Start Main Menu */
+header {
+  /*background-image: url("../img/bg-1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  padding: 235px 0;
+  /*margin-bottom: 60px;*/
+  /*background-attachment: fixed;*/
+  /*background-size: 100% 100%;*/
+}
+
+.top-page {
+    background-image: url('./images/knit.jpg');
+    background-size:cover;
+}
+ul#menu {
+padding: 6px;
+position: fixed;
+text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+width: 100%;
+z-index: 999;
+    }
+.main-menu {
+  margin-top: -234px;
+}
+
+.main-menu ul li {
+  display: inline-block;
+  padding: 10px;
+}
+.main-menu ul li a {
+  background: #383E4C none repeat scroll 0 0;
+  border: 1px solid #646d7c;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+/*.main-menu ul li.active a,*/
+.main-menu ul li a:focus,
+.main-menu ul li a:hover {
+  background: #49505F;
+}
+
+.single-page-nav { text-align: center; }
+/* End Header CSS */
+
+/* Start Feature CSS */
+.green-text { color: #6e9472; }
+.blue-text { color: #4c809c; }
+.red-text { color: #a14065; }
+.green-btn { background: #6e9472; }
+.green-btn:hover { background: #6e9472; }
+.blue-btn { background: #4c809c; }
+.blue-btn:hover { background: #a14065; }
+.red-btn { background: #a14065; }
+.red-btn:hover { background: #a14065; }
+.feature-content {
+    background: white;
+    padding-bottom: 40px;
+    border-radius:10px;
+}
+.feature-content img {
+    border-radius:10px;
+}
+.feature-content-title {
+    font-family:'Chelsea Market', cursive;
+    padding: 0 20px;
+    margin-top:10px;
+    font-size:2vw;
+    text-align: left;    
+}
+.feature-content-description {
+    font-family:'Amatic SC', cursive;
+    font-size:1.5vw;
+    font-weight:600;
+    padding: 0 20px 35px;
+    text-align: left;
+    color: black;
+    margin-top: 15px;
+}
+.feature-content-link {
+    font-family:'Chelsea Market', cursive;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1vw;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+}
+.feature-content-link:hover, .feature-content-link:link, .feature-content-link:visited  {
+  color: white;
+  text-decoration: none;
+}
+
+/* End Feature CSS */
+
+/* Start Blog CSS */
+#blog-area {
+    margin: 60px 0px;
+    background-color: rgb(29, 29, 29);
+
+    
+}
+.col-sm-6 {
+    margin-left:15vw;
+}
+.blog-content {
+  padding-bottom:15px;
+  padding-top:10px;
+  width:800px;
+  border-radius:10px;
+  margin: 0 auto;
+}
+.blog-content h2 {
+    font-family:'Chelsea Market', cursive;
+    font-size:2.5vw;
+    color:white;
+    text-transform: lowercase;
+    margin-top:10px;
+}
+.blog-content p {
+    font-family:'Amatic SC', cursive;
+    font-size:2vw;
+    font-weight:bold;
+    padding: 27px;
+    text-align: left;
+    color: white;
+}
+.blog-content span {
+  margin-left: 225px;
+}
+.blog-content span a {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    color: #666666;
+    font-size: 18px;
+    padding: 10px 30px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.blog-content span a:hover {
+    background: #E6E6E6 none repeat scroll 0 0;
+}
+.blog-content > p#blofr {
+    padding: 8px;
+}
+/* End Blog CSS */
+
+/* Start Services CSS */
+div#service-area-main {
+    float: left;
+    width: 100%;
+  margin-top:-200px;
+}
+.our-service{
+  margin:65px 0px 85px;
+}
+/*section#services-area {
+  background-image: url("../img/bg-2.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}*/
+.service  h1 {
+  font-family:'Chelsea Market', cursive;
+  text-transform: lowercase;
+  font-size:6vw;
+  color:black;
+  margin-bottom: 20px;
+
+}
+/* End Services CSS */
+
+/* Start Testimornial CSS */
+#testimornial-area{
+  margin: 60px 0;
+}
+
+.tm-box-description h2 {
+    font-family:'Amatic SC', cursive;
+    font-size:4vw;
+    font-weight:bold;
+    padding:10px;
+    color: black;
+    float:right;
+    margin-right:30px;
+    margin-top:50px;
+}
+.tm-box-description p {
+    font-family:'Amatic SC', cursive;
+    font-size:2vw;
+    font-weight:bold;
+
+}
+
+#testimornial-area{
+    margin: 60px 0;
+  }
+  
+  .testimonial-content {
+    background-color: #f7d7d7;
+    border-radius:12px;
+    height: 500px;
+    max-width: 260px;
+    margin: 0 auto 30px;
+  }
+  .testimonial-content img {
+      border-radius:12px;
+  }
+  .testimonial-content  p {
+      font-family:'Amatic SC', cursive;
+      font-size:2vw;
+      font-weight:bold;
+      padding: 10px 20px;
+      text-align: left;
+  }
+  .content-link {
+      background: #fff none repeat scroll 0 0;
+      border: 1px solid #cdcdcd;
+      border-radius: 10px;
+      color: #666;
+      display: inline-block;
+      font-size: 18px;
+      padding: 10px 30px;
+      text-decoration: none;
+      text-transform: capitalize;
+      margin-top: 15px;
+      -webkit-transition: all 0.3s ease;
+              transition: all 0.3s ease;
+  }
+  .content-link:hover,
+  .content-link:focus {
+      background: #E6E6E6 none repeat scroll 0 0;
+  }
+  
+  
+
+/* Start Contact CSS */
+/*section#contact-area {
+  background-image: url("../img/bg-3.jpg");
+  background-position: center center;
+  background-size: cover;  
+  background-attachment: fixed; 
+}*/
+.contact-content h1 {
+    font-size:6vw;
+    color: black;
+    margin-top:-30px;
+    margin-bottom: 50px;
+    margin-left:80px;
+}
+.contact-content p {
+    font-family:'Amatic SC', cursive;
+    font-size:2vw;
+    background: transparent none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #000;
+    margin-top:-30px;
+    margin-bottom: 20px;
+    padding: 20px 15px;
+}
+.contact-form-left { padding-left: 0; }
+.contact-form-right { padding-right: 0; }
+input {
+    margin-bottom: 15px;    
+}
+.form-control {
+  font-family:'Amatic SC', cursive;
+  border: none;
+  background: rgba(242, 242, 242, 0.4);
+  margin-left:-20px;
+}
+
+.form-group button {
+  font-family:'Chelsea Market', cursive;
+  background: #262628 none repeat scroll 0 0;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius:10px;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+/* End Contact CSS */
+
+/* Start Footer CSS */
+.footer-content  h1 {
+    color: #666;
+    font-size: 32px;
+    font-style: italic;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+.footer-content  p {
+    color: #999;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.copy {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+/* Slick Nav CSS */
+.slicknav_menu {
+    display:none;
+}
+.slicknav_nav a {
+    text-transform: capitalize;
+}
+.slicknav_menu {
+  background: #40475a none repeat scroll 0 0;
+}
+/* Scrool To top */
+/* Image style */
+#scrollUp {
+    background-image: url("../img/top.png");
+    bottom: 20px;
+    right: 20px;
+    width: 38px;    /* Width of image */
+    height: 38px;   /* Height of image */
+}
+/* End Scroll To top */
+
+.about-section {
+    height: 100%;
+    padding-top: 70px;
+}
+
+.services-section {
+    height: 100%;
+   /* padding-top: 150px;*/
+}
+.tm-box {
+  background-color: #F2F2F2;
+  max-width: 1140px;
+  width: 100%;
+}
+.tm-box-description {
+  padding: 30px;
+}
+.tm-box-p {
+  margin-bottom: 10px;
+}
+.tm-box-p:last-child {
+  margin-bottom: 0;
+}
+.contact-section {
+    height: 100%;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.form-control {
+  color: #000;
+}
+.contact-section .container {
+  max-width: 750px;
+}
+
+/*https://css-tricks.com/snippets/css/style-placeholder-text/*/
+.form-control::-webkit-input-placeholder {
+   color: black;
+}
+.form-control:-moz-placeholder { /* Firefox 18- */
+   color: black;  
+}
+.form-control::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+}
+.form-control:-ms-input-placeholder {  
+   color: black;  
+}
+
+/*************navigation******************/
+
+ .navbar-inverse {
+    background-color:transparent;
+    border-color: transparent;
+}
+.navbar-nav>li {
+    display: inline-block;
+    padding: 10px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    background: transparent none repeat scroll 0 0;
+    font-family:'Amatic SC', cursive;
+    color:black ;
+    font-size: 2vw;
+    padding: 15px 25px;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+}
+
+.navbar-inverse .navbar-nav > li > a.current,
+.navbar-inverse .navbar-nav > li > a:hover {
+        background: #49505F;
+}
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+/* Media Queries
+----------------------*/
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .blog-content > p#blofr {
+    padding: 18px;
+  }
+  .contact-content p {
+    font-size: 15px;
+  }
+}
+
+/*    Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .blog-content p {
+    margin-bottom: 21px;
+    padding: 27px;
+  }
+  .blog-content span { margin-left: 0; }
+  .service > p { font-size: 18px; }
+  .contact-content p {
+    font-size: 18px;
+    padding: 15px 0;
+  }
+  .navbar-nav > li {
+    padding: 6px;
+  }
+  .navbar-inverse .navbar-nav > li > a {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  header,
+  section#services-area,
+  section#contact-area {
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  
+  header {
+    height: 75vh;
+    padding: 0 15px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  } 
+
+  ul#menu { display:none; }
+
+  .slicknav_menu {
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    background:none;
+  }
+  
+  .feature-content {
+    max-width: 360px;
+    margin: 0 auto 30px;
+  }
+  .feature-content-title,
+  .feature-content-description {
+   text-align: center;
+  }
+  .blog-content { margin-bottom: 30px; }
+  .blog-content p { text-align: center; }
+  .blog-content span { margin-left: 0; }
+  .testimornial-content p { text-align: center; }
+  .footer-content h4 { font-size: 16px; }
+  .navbar-nav>li { display: block; }
+  .navbar-inverse {
+    background: none;
+    border: none; 
+  }
+  .navbar-inverse .navbar-toggle { background-color: #333; }
+  .navbar-inverse .navbar-collapse, 
+  .navbar-inverse .navbar-form {
+    background-color: #49505F;
+  }
+  .navbar .navbar-nav {
+    width: 100%;
+    margin:0;
+  }
+  .navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .navbar-nav>li {
+    width: 100%;
+    border-bottom: 1px solid #999;
+    padding:0px;
+  }
+  .navbar-nav>li:last-child { border-bottom: none;  }
+  .navbar-inverse .navbar-nav>li>a {
+    background:none;
+    border: none;
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .navbar-inverse .navbar-nav>li>a:focus, 
+  .navbar-inverse .navbar-nav>li>a:hover {
+    background-color: #383E4C;
+  }
+  .navbar-inverse .navbar-nav>.active>a, 
+  .navbar-inverse .navbar-nav>.active>a:focus, 
+  .navbar-inverse .navbar-nav>.active>a:hover {
+    background: #383E4C;
+  }
+  .navbar-inverse .navbar-nav > li > a { font-size: 16px; }
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .single-page-nav {
+    background-color: #383E4C;
+    max-height: 0;
+    -webkit-transition: max-height 0.8s;
+            transition: max-height 0.8s;
+    overflow: hidden;
+  }
+  /*http://css3.bradshawenterprises.com/animating_height/*/
+  .single-page-nav.show {
+    max-height: 250px;
+    overflow: auto;
+  }
+  .contact-form-left {
+    padding-right: 0;
+  }
+  .contact-form-right {
+    padding-left: 0;
+  }
+}
+
+/*    Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .header-content h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .col-xxs-12 {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  header { height: 50vh; }
+}
