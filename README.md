@@ -1,7 +1,7 @@
 # Knitlify
 
 # Website
-https://dreamy-leakey-cf0b9f.netlify.app/#section4
+https://dreamy-leakey-cf0b9f.netlify.app
 
 # Description
 Knitlify is a responsive webpage devoted to providing information and inspiration to those looking to get into any kind of needlework. The page features links to articles on how to get started with each type of craft, as well as links to other related pages and articles as well. 
